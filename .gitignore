@@ -42,3 +42,6 @@ DemoECommerce.ProductApiSolution/ProductApi.Presentation/obj/
 
 DemoECommerce.SharedLibrarySolution/ECommerce.SharedLibrary/bin/
 DemoECommerce.SharedLibrarySolution/ECommerce.SharedLibrary/obj
+
+
+*/.vs
