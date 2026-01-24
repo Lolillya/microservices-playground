@@ -1,47 +1,26 @@
 
 # ORDER API SOLUTION
-# application
-DemoECommerce.OrderApiSolution/OrderApi.Application/bin/
-DemoECommerce.OrderApiSolution/OrderApi.Application/obj/
-
-# domain
-DemoECommerce.OrderApiSolution/OrderApi.Domain/bin/
-DemoECommerce.OrderApiSolution/OrderApi.Domain/obj/
-
-# infrastructure
-DemoECommerce.OrderApiSolution/OrderApi.Infrastructure/bin/
-DemoECommerce.OrderApiSolution/OrderApi.Infrastructure/obj/
-
-# presentation
-DemoECommerce.OrderApiSolution/OrderApi.Presentation/bin/
-DemoECommerce.OrderApiSolution/OrderApi.Presentation/obj/
-
+DemoECommerce.OrderApiSolution/*/bin/
+DemoECommerce.OrderApiSolution/*/obj/
 # ----------------------------------------------------------------------
 
 # PRODUCT API SOLUTION
-# application
-DemoECommerce.ProductApiSolution/ProductApi.Application/bin/
-DemoECommerce.ProductApiSolution/ProductApi.Application/obj/
+DemoECommerce.ProductApiSolution/*/bin/
+DemoECommerce.ProductApiSolution/*/obj/
 
-# domain
-DemoECommerce.ProductApiSolution/ProductApi.Domain/bin/
-DemoECommerce.ProductApiSolution/ProductApi.Domain/obj/
+# ----------------------------------------------------------------------
 
-# infrastructure
-DemoECommerce.ProductApiSolution/ProductApi.Infrastructure/bin/
-DemoECommerce.ProductApiSolution/ProductApi.Infrastructure/obj/
-
-# presentation
-DemoECommerce.ProductApiSolution/ProductApi.Presentation/bin/
-DemoECommerce.ProductApiSolution/ProductApi.Presentation/obj/
+# AUTHENTICATION API SOLUTION
+DemoECommerce.AuthenticationApiSolution/*/bin/
+DemoECommerce.AuthenticationApiSolution/*/obj/
 
 # ----------------------------------------------------------------------
 
 # SHARED LIBRARY SOLUTION
 # shared library
 
-DemoECommerce.SharedLibrarySolution/ECommerce.SharedLibrary/bin/
-DemoECommerce.SharedLibrarySolution/ECommerce.SharedLibrary/obj
+DemoECommerce.SharedLibrarySolution/*/bin/
+DemoECommerce.SharedLibrarySolution/*/obj
 
 
 */.vs

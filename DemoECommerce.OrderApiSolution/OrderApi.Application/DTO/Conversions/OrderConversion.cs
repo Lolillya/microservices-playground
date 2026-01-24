@@ -10,6 +10,7 @@ namespace OrderApi.Application.DTO.Conversions
             ClientId = order.ClientId,
             ProductId = order.ProductId,
             OrderDate = order.OrderDate,
+            Price = order.Price,
             PurchaseQuantity = order.PurchaseQuantity
         };
 
@@ -24,6 +25,7 @@ namespace OrderApi.Application.DTO.Conversions
                     order.ProductId,
                     order.ClientId,
                     order.PurchaseQuantity,
+                    order.Price,
                     order.OrderDate
                 );
 
@@ -40,12 +42,15 @@ namespace OrderApi.Application.DTO.Conversions
                         o.ProductId,
                         o.ClientId,
                         o.PurchaseQuantity,
+                        o.Price,
                         o.OrderDate
                     )
                 );
 
                 return (null, _orders);
             }
+
+            return (null, null);
         }
     }
 }

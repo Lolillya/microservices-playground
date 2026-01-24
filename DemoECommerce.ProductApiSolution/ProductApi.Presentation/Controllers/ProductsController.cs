@@ -6,7 +6,7 @@ using ProductApi.Application.Interfaces;
 
 namespace ProductApi.Presentation.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ProductsController(IProduct productInterface) : ControllerBase
     {
