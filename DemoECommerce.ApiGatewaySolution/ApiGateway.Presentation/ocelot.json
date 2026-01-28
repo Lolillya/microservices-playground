@@ -37,6 +37,13 @@
         "TtlSeconds": 60,
         "Region": "default",
         "Header": "OC-Caching-Control"
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "Limit": 100,
+        "PeriodTimespan": 60
       }
     },
 
@@ -56,6 +63,13 @@
         "TtlSeconds": 60,
         "Region": "default",
         "Header": "OC-Caching-Control"
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "Limit": 100,
+        "PeriodTimespan": 60
       }
     },
 
@@ -74,6 +88,13 @@
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "Limit": 100,
+        "PeriodTimespan": 60
       }
     },
 
