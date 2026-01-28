@@ -2,7 +2,6 @@
 using ECommerce.SharedLibrary.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
@@ -17,7 +16,7 @@ namespace ECommerce.SharedLibrary.DependencyInjection
             // Add generic db context
             services.AddDbContext<TContext>(option => option.UseSqlServer(
                 config
-                .GetConnectionString("eCommerceConnection"), sqlserverOption => 
+                .GetConnectionString("eCommerceConnection"), sqlserverOption =>
                 sqlserverOption.EnableRetryOnFailure()));
 
             // configure Serilog logging
@@ -42,7 +41,7 @@ namespace ECommerce.SharedLibrary.DependencyInjection
             app.UseMiddleware<GlobalException>();
 
             // register middleware to block all outsiders API calls
-            //app.UseMiddleware<ListenToOnlyApiGateway>();
+            app.UseMiddleware<ListenToOnlyApiGateway>();
 
             return app;
         }

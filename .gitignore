@@ -17,10 +17,16 @@ DemoECommerce.AuthenticationApiSolution/*/obj/
 # ----------------------------------------------------------------------
 
 # SHARED LIBRARY SOLUTION
-# shared library
 
 DemoECommerce.SharedLibrarySolution/*/bin/
 DemoECommerce.SharedLibrarySolution/*/obj
 
+# ----------------------------------------------------------------------
+
+# API GATEWAY SOLUTION
+DemoECommerce.ApiGatewaySolution/*/bin/
+DemoECommerce.ApiGatewaySolution/*/obj/
+
 
 */.vs
+.vscode
