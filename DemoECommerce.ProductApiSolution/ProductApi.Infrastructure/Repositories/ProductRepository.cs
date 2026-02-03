@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 
 namespace ProductApi.Infrastructure.Repositories
 {
-    internal class ProductRepository(ProductDbContext context) : IProduct
+    public class ProductRepository(ProductDbContext context) : IProduct
     {
         public async Task<Response> CreateAsync(Product entity)
         {
@@ -22,7 +22,7 @@ namespace ProductApi.Infrastructure.Repositories
                 var currentEntity = context.Products.Add(entity).Entity;
                 await context.SaveChangesAsync();
                 if (currentEntity is not null && currentEntity.Id > 0)
-                    return new Response(true, $"{entity.Name} added to database successfully.");
+                    return new Response(true, $"{entity.Name} added successfully.");
                 else
                     return new Response(false, $"Error occured while adding {entity.Name}");
 
@@ -44,7 +44,7 @@ namespace ProductApi.Infrastructure.Repositories
             {
                 var product = await FindByIdAsync(entity.Id);
                 if (product is null)
-                    return new Response(false, $"Product {entity.Name} not found.");
+                    return new Response(false, "Product not found.");
 
                 context.Products.Remove(product);
                 await context.SaveChangesAsync();
@@ -119,12 +119,12 @@ namespace ProductApi.Infrastructure.Repositories
             {
                 var product = await FindByIdAsync(entity.Id);
                 if (product is null)
-                    return new Response(false, $"Product {entity.Name} not found.");
+                    return new Response(false, "Product not found.");
 
                 context.Entry(product).State = EntityState.Detached;
                 context.Products.Update(entity);
                 await context.SaveChangesAsync();
-                return new Response(true, $"{entity.Name} updated successfully.");
+                return new Response(true, "Product updated successfully.");
             }
             catch (Exception ex)
             {

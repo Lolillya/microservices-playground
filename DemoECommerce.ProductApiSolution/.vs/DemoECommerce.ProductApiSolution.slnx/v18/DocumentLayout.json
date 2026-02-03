@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87501B4C-ABD0-424A-9098-EB3171AFF670}|UnitTest.ProductApi\\UnitTest.ProductApi.csproj|c:\\users\\iriyaa\\source\\repos\\demoecommerce\\demoecommerce.productapisolution\\unittest.productapi\\repositories\\productrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87501B4C-ABD0-424A-9098-EB3171AFF670}|UnitTest.ProductApi\\UnitTest.ProductApi.csproj|solutionrelative:unittest.productapi\\repositories\\productrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768C84DC-A07C-130E-F83A-2D46F58FCD08}|ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj|c:\\users\\iriyaa\\source\\repos\\demoecommerce\\demoecommerce.productapisolution\\productapi.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768C84DC-A07C-130E-F83A-2D46F58FCD08}|ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj|solutionrelative:productapi.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB786FF2-4415-430E-BD62-777EED5D7BB8}|ProductApi.Presentation\\ProductApi.Presentation.csproj|c:\\users\\iriyaa\\source\\repos\\demoecommerce\\demoecommerce.productapisolution\\productapi.presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB786FF2-4415-430E-BD62-777EED5D7BB8}|ProductApi.Presentation\\ProductApi.Presentation.csproj|solutionrelative:productapi.presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87501B4C-ABD0-424A-9098-EB3171AFF670}|UnitTest.ProductApi\\UnitTest.ProductApi.csproj|c:\\users\\iriyaa\\source\\repos\\demoecommerce\\demoecommerce.productapisolution\\unittest.productapi\\controllers\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87501B4C-ABD0-424A-9098-EB3171AFF670}|UnitTest.ProductApi\\UnitTest.ProductApi.csproj|solutionrelative:unittest.productapi\\controllers\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\ProductApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\ProductApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ProductApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAArwH4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T07:20:39.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\UnitTest.ProductApi\\Repositories\\ProductRepositoryTest.cs",
+              "RelativeDocumentMoniker": "UnitTest.ProductApi\\Repositories\\ProductRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\UnitTest.ProductApi\\Repositories\\ProductRepositoryTest.cs",
+              "RelativeToolTip": "UnitTest.ProductApi\\Repositories\\ProductRepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T04:25:51.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\ProductApi.Presentation\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "ProductApi.Presentation\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\ProductApi.Presentation\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ProductApi.Presentation\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T22:54:10.483Z",
+              "WhenOpened": "2026-01-29T06:50:48.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\UnitTest.ProductApi\\Controllers\\ProductControllerTest.cs",
+              "RelativeDocumentMoniker": "UnitTest.ProductApi\\Controllers\\ProductControllerTest.cs",
+              "ToolTip": "C:\\Users\\iriyaa\\source\\repos\\DemoECommerce\\DemoECommerce.ProductApiSolution\\UnitTest.ProductApi\\Controllers\\ProductControllerTest.cs",
+              "RelativeToolTip": "UnitTest.ProductApi\\Controllers\\ProductControllerTest.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAALgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T05:53:56.853Z",
               "EditorCaption": ""
             }
           ]

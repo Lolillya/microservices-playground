@@ -18,7 +18,7 @@ namespace ProductApi.Presentation.Controllers
             // Get all products from repo
             var products = await productInterface.GetAllAsync();
             if (!products.Any())
-                return NotFound("No Product found");
+                return NotFound("No products found.");
 
             // convert data from entity to dto
             var (_, list) = ProductConversion.FromEntity(null!, products);
